@@ -27,7 +27,7 @@ The main question is to help optimize marketing expenses: what sources/platforms
 
 `Revenue` — Yandex.Afisha's revenue from the order
  
-###The costs table (data on marketing expenses):
+### The costs table (data on marketing expenses):
 `source_id` — ad source identifier
 
 `dt` — date
