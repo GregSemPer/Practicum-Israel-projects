@@ -1,4 +1,3 @@
-# Yandex-Practicum-projects
 # Yandex Practicum bootcamp study projects
  This repository contains several projects made during studying in the Yandex Practicum bootcamp on the Data Analysis track.
 
