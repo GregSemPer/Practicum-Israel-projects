@@ -1,10 +1,35 @@
-# Yandex Practicum bootcamp study projects
- This repository contains several projects made during studying in the Yandex Practicum bootcamp on the Data Analysis track.
+# Goal
 
- **List of projects:**
+This project aimed to find out the most profitable sources for the ad campaings based on the logs from Yandex.Afisha service from June 2017 through May 2018, containing information on the visits, orders and marketing expenses fro the given period.
 
-| Project name | Description | Libraries used |
-| ----- | ------ | ---- |
-| [Los Angeles restaurants research](#yandex-practicum-bootcamp-study-projects/los-angeles-restaurants-research) | Analysis of LA eateries market in order to decide the best business strategy for a new cafe| pandas, seaborn, numpy, mathplotlib, plotly, scipy|
-| [Megaline users behaviour](#/megaline-users-behaviour/README.md) | Analysis of  behaviour of Megaline users of 2 different prepaid plans in order to find out the most profitable one | pandas, numpy, matplotlib, seaborn, scipy |
-| A/B testing for an online store | Analysis of hypothsis testing experiment results conducted by an online store in order to increase conversion rate and average order size | pandas, seaborn, numpy, matplotlib, scipy |
+The main question is to help optimize marketing expenses: what sources/platforms can be recommended for futher investments? 
+
+# Data description:
+
+### The visits table (server logs with data on website visits):
+
+`Uid` — user's unique identifier
+
+`Device` — user's device
+
+`Start Ts` — session start date and time
+
+`End Ts` — session end date and time
+
+`Source Id` — identifier of the ad source the user came from
+ 
+*All dates in this table are in YYYY-MM-DD format*
+
+### The orders table (data on orders):
+`Uid` — unique identifier of the user making an order
+
+`Buy` Ts — order date and time
+
+`Revenue` — Yandex.Afisha's revenue from the order
+ 
+###The costs table (data on marketing expenses):
+`source_id` — ad source identifier
+
+`dt` — date
+
+`costs` — expenses on this ad source on this day
