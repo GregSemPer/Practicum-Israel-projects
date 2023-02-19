@@ -1,5 +1,5 @@
 # Goal
-This study is aimed to find out, which prepaid plan of the telecom company Megaline brings in more revenue and should be advertized more, using information on behaviour of 500 clients (who the clients are, where they're from, which plan they use, and the number of calls they made and text messages they sent in 2018).
+This study is aimed to find out, which prepaid plan of the telecom company Megaline brings in more revenue and should be advertized more, using information on behavior of 500 clients (who the clients are, where they're from, which plan they use, and the number of calls they made and text messages they sent in 2018).
 
 # Data description 
 
