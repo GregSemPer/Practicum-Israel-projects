@@ -1,5 +1,5 @@
 # Yandex Practicum bootcamp study projects
- This repository contains several projects made during studying in the Yandex Practicum bootcamp on the Data Analysis track.
+ This repository contains several projects made during studying in the [Practicum-Israel](https://www.linkedin.com/school/practicum-israel/) bootcamp on the Data Analysis track.
 
  **List of projects:**
 
