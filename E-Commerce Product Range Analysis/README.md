@@ -1,10 +1,29 @@
-# Yandex Practicum bootcamp study projects
- This repository contains several projects made during studying in the Yandex Practicum bootcamp on the Data Analysis track.
+# Goal
+The goal of the project is to analyze the product range of an online store that sells household goods using exploratory data analysis and statistical hypothesis testing. The insights gained from this analysis can help the store to optimize their product range and improve their sales.
 
- **List of projects:**
 
-| Project name | Description | Libraries used |
-| ----- | ------ | ---- |
-| [Los Angeles restaurants research](#yandex-practicum-bootcamp-study-projects/los-angeles-restaurants-research) | Analysis of LA eateries market in order to decide the best business strategy for a new cafe| pandas, seaborn, numpy, mathplotlib, plotly, scipy|
-| [Megaline users behaviour](#/megaline-users-behaviour/README.md) | Analysis of  behaviour of Megaline users of 2 different prepaid plans in order to find out the most profitable one | pandas, numpy, matplotlib, seaborn, scipy |
-| A/B testing for an online store | Analysis of hypothsis testing experiment results conducted by an online store in order to increase conversion rate and average order size | pandas, seaborn, numpy, matplotlib, scipy |
+
+# Data description 
+
+`InvoiceNo` — order identifier
+
+`StockCode` — item identifier
+
+`Description` — item name
+
+`Quantity` - quantity of products bought in 1 purchase
+
+`InvoiceDate` — order date
+
+`UnitPrice` — price per item
+
+`CustomerID`
+
+# Additional materials:
+
+* [**Presentation**](https://disk.yandex.com/i/aRAXiFF0sImjsQ)
+* [**Tableau Dashboard**](https://public.tableau.com/app/profile/grigory.perelman/viz/E-CommerceProductRangaanalysis/Dashboard1?publish=yes)
+
+# Libraries used
+
+pandas, seaborn, numpy, matplotlib, scipy, sklearn, mlxtend, nltk, statsmodels
